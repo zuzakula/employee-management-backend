@@ -1,5 +1,6 @@
 package com.zuza.employeemanagement.service;
 
+import com.zuza.employeemanagement.exceptions.UserNotFoundException;
 import com.zuza.employeemanagement.model.Employee;
 import com.zuza.employeemanagement.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
